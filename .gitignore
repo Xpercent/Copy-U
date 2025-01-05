@@ -1,0 +1,40 @@
+# 忽略 Visual Studio 临时文件
+.vs/
+
+*.user
+*.suo
+*.vcxproj.user
+
+# 忽略编译生成的文件
+bin/
+obj/
+
+copyu/log/
+copyu/data/
+x64/
+copyu/x64/
+# 忽略日志文件
+*.log
+*.tlog
+*.bak
+*.swp
+
+# 忽略生成的二进制文件
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.obj
+*.iobj
+
+# 忽略vcpkg相关的日志文件
+vcpkg.applocal.log
+
+# 忽略Visual Studio生成的其他文件
+*.FileListAbsolute.txt
+
+# 忽略配置文件
+.vscode/
+
+# 忽略编译器生成的其他文件
+copyu.vcxproj.FileListAbsolute.txt
